@@ -1,69 +1,60 @@
 <!Doctype html>
 <html>
-    <head>
-        <title>Task1</title>
-    </head>
-    <body bgcolor="darkslategray">
-        <fieldset >
-            <legend align="center" style="font-family: impact;text-shadow: 5Px 8px 10px blue;color: white;font-size: 36px">Product Form</legend><br>
-            <table align="center" style="color:white;font-family: impact;text-shadow: 5px 8px 10px blue">
-                <tr>
-                    <td><label>Product Name : </label></td>
-                    <td><input required type="text" id="Pname" name="pname" placeholder="Product name"></td>
-                </tr>
-                <tr>
-                    <td><label>Product Price : </label></td>
-                    <td><input required type="text" id="Pprice" name="Pprice" placeholder="Product Price"></td> 
-                </tr>
-                <tr>
-                    <td><label>Product Quantity : </label></td>
-                    <td><select required name="ProductQ" id="ProductQ">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                       
-                    </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label>Made of Payment</label></td>
-                    <td><select required name="Payment" id="Payment">
+
+<head>
+    <title>Task1</title>
+</head>
+
+<body bgcolor="darkslategray">
+    <fieldset>
+        <legend align="center" style="font-family: impact;text-shadow: 5Px 8px 10px blue;color: white;font-size: 36px">
+            Product Form</legend><br>
+        <table align="center" style="color:white;font-family: impact;text-shadow: 5px 8px 10px blue">
+            <tr>
+                <td><label>Product Name : </label></td>
+                <td><input required type="text" id="Pname" name="pname" placeholder="Product name"></td>
+            </tr>
+            <tr>
+                <td><label>Product Price : </label></td>
+                <td><input required type="text" id="Pprice" name="Pprice" placeholder="Product Price"></td>
+            </tr>
+
+            <tr>
+                <td><label>Made of Payment</label></td>
+                <td><select required name="Payment" id="Payment">
                         <option value="">Option</option>
                         <option value="UPI">UPI</option>
                         <option value="NetBanking">NetBanking</option>
                         <option value="COD">COD</option>
                     </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label>Product Type</label></td>
-                    <td><input checked type="radio" id="Import" name="Type" value="Import">
-                        <label for="Import">Import</label>
-                        <input checkrsd type="radio" id="Export" name="type" value="Export">
-                        <label for="Export">Export</label></td>
-                </tr>
-                <tr>
-                    <td><label>Weight</label></td>
-                    <td>
-                        <input checked type="checkbox" id="<=50kg" name="<=50kg">
-                        <label for="<=50kg"><=50kg</label>
-                        <input checked type="checkbox" id=">50kg" name=">50kg">
-                        <label for=">50kg">>50kg</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><button type="submit" style="text-shadow: 5px 8px 10px blue">Add Product</button>
-                        <button type="clear" style="text-shadow: 5px 8px 10px blue">clear</button></td>
-                </tr>
-            </table>
-        </fieldset>
-    </body>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Product Type</label></td>
+                <td><input checked type="radio" id="Import" name="Type" value="Import">
+                    <label for="Import">Import</label>
+                    <input checkrsd type="radio" id="Export" name="type" value="Export">
+                    <label for="Export">Export</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Weight</label></td>
+                <td>
+                    <input checked type="checkbox" id="<=50kg" name="<=50kg">
+                    <label for="<=50kg">
+                        <=50kg< /label>
+                            <input checked type="checkbox" id=">50kg" name=">50kg">
+                            <label for=">50kg">>50kg</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit" style="text-shadow: 5px 8px 10px blue">Add Product</button>
+                    <button type="clear" style="text-shadow: 5px 8px 10px blue">clear</button>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+
 </html>
